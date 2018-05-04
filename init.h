@@ -1,0 +1,5 @@
+#include "district/district.h"
+#include "district/stone_district.h"
+#include "district/lower_east_district.h"
+#include "district/north_district.h"
+#include "district/border_district.h"
