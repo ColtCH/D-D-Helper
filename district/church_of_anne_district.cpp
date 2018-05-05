@@ -1,14 +1,14 @@
-#include "lower_east_district.h"
+#include "church_of_anne_district.h"
 
-void LowerEastDistrict::flavorText(){
+void ChurchOfAnneDistrict::flavorText(){
 
   cout << left
-       << "Lower East District." << endl
-       << "Home to the workers in Stone District." << endl
+       << "Church of Anne." << endl
+       << "Home to the faithful." << endl
        << "Population: " << (population * 1000) << endl
        << "Size: " << size << " square kilometers" << endl
        << "Wealthiness: " << wealth << " average income (in gold)" << endl
        << "Danger level: " << danger << " guards or more" << endl;
 }
 
-LowerEastDistrict::LowerEastDistrict() : District(80, 25, 3, 2) {}
+ChurchOfAnneDistrict::ChurchOfAnneDistrict() : District(20, 15, 15, 15) { faith = 10; }

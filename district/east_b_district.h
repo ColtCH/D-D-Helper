@@ -1,5 +1,5 @@
-#ifndef _LOWER_EAST_DISTRICT_H_
-#define _LOWER_EAST_DISTRICT_H_
+#ifndef _EAST_B_DISTRICT_H_
+#define _EAST_B_DISTRICT_H_
 /*
 ================================================================================
 ================================================================================
@@ -7,13 +7,13 @@
 
 #include "district.h"
 
-class LowerEastDistrict : public District {
+class EastBDistrict : public District {
 
 public:
 
   void flavorText();
 
-  LowerEastDistrict();
+  EastBDistrict();
 
 };
 

@@ -27,7 +27,7 @@ int main(int argc, char const *argv[]) {
     processMenuInput(user_input, districts); // we need districts to do some operations.
     outputUsageMessage();
     }
-    
+
   return 0;
 }
 
@@ -58,10 +58,32 @@ void outputUsageMessage(){
 
 //Initialize Districts----------------------------------------------------------
 void initializeDistricts(vector<District*>& districts){
-  districts.push_back( new StoneDistrict    () );
-  districts.push_back( new LowerEastDistrict() );
-  districts.push_back( new BorderDistrict   () );
-  districts.push_back( new NorthDistrict    () );
+
+  districts.push_back( new StoneDistrict           () );
+  districts.push_back( new LowerWestDistrict       () );
+  districts.push_back( new BorderDistrict          () );
+  districts.push_back( new NorthDistrict           () );
+  districts.push_back( new SouthMarketDistrict     () );
+  districts.push_back( new CapitalDistrict         () );
+  districts.push_back( new BernardDistrict         () );
+  districts.push_back( new CapitalMausoleumDistrict() );
+  districts.push_back( new StAbrahamDistrict       () );
+  districts.push_back( new ChurchOfAnneDistrict    () );
+  districts.push_back( new FlowerSquareDistrict    () );
+  districts.push_back( new NorthMarketDistrict     () );
+  districts.push_back( new SouthFisheryDistrict    () );
+  districts.push_back( new CentralMarketDistrict   () );
+  districts.push_back( new HotelDistrict           () );
+  districts.push_back( new SeaDistrict             () );
+  districts.push_back( new DamenDistrict           () );
+  districts.push_back( new BaxterTheatreDistrict   () );
+  districts.push_back( new BlueDistrict            () );
+  districts.push_back( new FisheryDistrict         () );
+  districts.push_back( new EastADistrict           () );
+  districts.push_back( new EastBDistrict           () );
+  districts.push_back( new NorthFisheryDistrict    () );
+  districts.push_back( new EastFisheryDistrict     () );
+  districts.push_back( new SteamMinesDistrict      () );
 }
 
 //Process Menu Input------------------------------------------------------------
@@ -76,7 +98,7 @@ void processMenuInput(int input, vector<District*>& districts){
       cout << "===============================================================" << endl;
       cout << "      Indicate which district they have traveled to:           " << endl << endl;
       cout << "      1)  Stone                14) Central Market              " << endl;
-      cout << "      2)  Lower East           15) Hotel                       " << endl;
+      cout << "      2)  Lower West           15) Hotel                       " << endl;
       cout << "      3)  Border               16) Sea                         " << endl;
       cout << "      4)  North                17) Damen                       " << endl;
       cout << "      5)  South Market         18) Baxter's Theatre            " << endl;
@@ -85,7 +107,7 @@ void processMenuInput(int input, vector<District*>& districts){
       cout << "      8)  Capital Mausoleum    21) East A                      " << endl;
       cout << "      9)  St. Abraham          22) East B                      " << endl;
       cout << "      10) Church of Anne       23) North Fishery               " << endl;
-      cout << "      11) Flower Square        24) Easy Fishery                " << endl;
+      cout << "      11) Flower Square        24) East Fishery                " << endl;
       cout << "      12) North Market         25) Steam Mines                 " << endl;
       cout << "      13) South Fishery                                        " << endl;
       cout << TextSpacing << TextSpacing << TextSpacing << TextSpacing;
