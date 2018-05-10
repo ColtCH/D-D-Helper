@@ -11,4 +11,4 @@ void FisheryDistrict::flavorText(){
        << "Danger level: " << danger << " guards or more" << endl;
 }
 
-FisheryDistrict::FisheryDistrict() : District(20, 15, 15, 15) { total_fish = 100; }
+FisheryDistrict::FisheryDistrict() : Fishery(20, 15, 15, 15, 100, 10) {}

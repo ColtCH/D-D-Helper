@@ -5,13 +5,11 @@
 ================================================================================
 */
 
-#include "district.h"
+#include "fishery.h"
 
-class EastFisheryDistrict : public District {
+class EastFisheryDistrict : public Fishery {
 
 public:
-
-  int total_fish;
 
   void flavorText();
 

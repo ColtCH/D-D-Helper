@@ -11,4 +11,4 @@ void NorthFisheryDistrict::flavorText(){
        << "Danger level: " << danger << " guards or more" << endl;
 }
 
-NorthFisheryDistrict::NorthFisheryDistrict() : District(20, 15, 15, 15) {}
+NorthFisheryDistrict::NorthFisheryDistrict() : Fishery(20, 15, 15, 15, 100, 10) {}

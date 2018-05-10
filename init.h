@@ -1,4 +1,6 @@
 #include "district/district.h"
+#include "district/fishery.h"
+//----------------------------
 #include "district/stone_district.h"
 #include "district/lower_west_district.h"
 #include "district/north_district.h"
