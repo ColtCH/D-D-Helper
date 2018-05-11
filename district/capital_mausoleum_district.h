@@ -11,7 +11,7 @@ class CapitalMausoleumDistrict : public District {
 
 public:
 
-  void flavorText();
+  string flavorText();
 
   int tombstones;
 

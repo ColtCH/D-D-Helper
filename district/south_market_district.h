@@ -13,7 +13,7 @@ public:
 
   int market_goods;
 
-  void flavorText();
+  string flavorText();
 
   SouthMarketDistrict();
 

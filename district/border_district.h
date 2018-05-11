@@ -11,7 +11,7 @@ class BorderDistrict : public District {
 
 public:
 
-  void flavorText();
+  string flavorText();
 
   BorderDistrict();
 

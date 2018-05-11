@@ -13,7 +13,7 @@ public:
 
   int dissent_with_populus;
 
-  void flavorText();
+  string flavorText();
 
   CapitalDistrict();
 

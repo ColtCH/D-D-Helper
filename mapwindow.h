@@ -5,6 +5,14 @@
 #include <QPixmap>
 #include <QPalette>
 #include <QBrush>
+#include <QMessageBox>
+#include <QString>
+
+#include "init.h"
+
+#include <vector>
+
+using namespace std;
 
 namespace Ui {
 class MapWindow;
@@ -18,8 +26,14 @@ public:
     explicit MapWindow(QWidget *parent = 0);
     ~MapWindow();
 
+    void initializeDistricts  (vector<District*>& districts);
+
+private slots:
+    void on_stoneDistrictButton_clicked();
+
 private:
     Ui::MapWindow *ui;
+    vector<District*> districts;
 };
 
 #endif // MAPWINDOW_H

@@ -13,7 +13,7 @@ public:
 
   int mineral_storage; // A Value between 1 - 1000
 
-  void flavorText();
+  string flavorText();
 
   StoneDistrict();
 

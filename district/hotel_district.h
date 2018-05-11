@@ -11,7 +11,7 @@ class HotelDistrict : public District {
 
 public:
 
-  void flavorText();
+  string flavorText();
 
   HotelDistrict();
 

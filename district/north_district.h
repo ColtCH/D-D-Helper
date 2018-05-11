@@ -11,7 +11,7 @@ class NorthDistrict : public District {
 
 public:
 
-  void flavorText();
+  string flavorText();
 
   NorthDistrict();
 

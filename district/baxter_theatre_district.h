@@ -13,7 +13,7 @@ public:
 
   int baxter_opinion;
 
-  void flavorText();
+  string flavorText();
 
   BaxterTheatreDistrict();
 

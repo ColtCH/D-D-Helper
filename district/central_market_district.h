@@ -13,7 +13,7 @@ public:
 
   int total_goods;
 
-  void flavorText();
+  string flavorText();
 
   CentralMarketDistrict();
 

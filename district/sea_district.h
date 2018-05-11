@@ -11,7 +11,7 @@ class SeaDistrict : public District {
 
 public:
 
-  void flavorText();
+  string flavorText();
 
   SeaDistrict();
 

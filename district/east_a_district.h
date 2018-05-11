@@ -11,7 +11,7 @@ class EastADistrict : public District {
 
 public:
 
-  void flavorText();
+  string flavorText();
 
   EastADistrict();
 

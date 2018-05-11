@@ -11,6 +11,7 @@
 #include <string>
 #include <time.h>
 #include <stdlib.h>
+#include <sstream>
 
 using namespace std;
 
@@ -29,7 +30,7 @@ public:
            population(p), size(s), wealth(w), danger(d) {}
 
   //All derivatives of District MUST have some flavor text.
-  virtual void flavorText() = 0;
+  virtual string flavorText() = 0;
 
   void increaseDanger()     { danger++;     }
   void increaseWealth()     { wealth++;     }

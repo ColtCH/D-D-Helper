@@ -13,7 +13,7 @@ public:
 
   int faith;
 
-  void flavorText();
+  string flavorText();
 
   ChurchOfAnneDistrict();
 

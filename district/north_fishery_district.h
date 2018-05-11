@@ -11,7 +11,7 @@ class NorthFisheryDistrict : public Fishery {
 
 public:
 
-  void flavorText();
+  string flavorText();
 
   NorthFisheryDistrict();
 

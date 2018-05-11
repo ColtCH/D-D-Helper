@@ -13,7 +13,7 @@ public:
 
   int steam_production;
 
-  void flavorText();
+  string flavorText();
 
   SteamMinesDistrict();
 
