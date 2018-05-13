@@ -1,13 +1,11 @@
 #ifndef _SOUTH_MARKET_DISTRICT_H_
 #define _SOUTH_MARKET_DISTRICT_H_
 
-#include "district.h"
+#include "market.h"
 
-class SouthMarketDistrict : public District {
+class SouthMarketDistrict : public Market {
 
 public:
-
-  int market_goods;
 
   string flavorText();
 

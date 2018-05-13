@@ -16,4 +16,4 @@ string NorthMarketDistrict::flavorText(){
 
 }
 
-NorthMarketDistrict::NorthMarketDistrict() : District(20, 15, 15, 15) {}
+NorthMarketDistrict::NorthMarketDistrict() : Market(20, 15, 15, 15, 10, 10) {}

@@ -16,4 +16,4 @@ string CentralMarketDistrict::flavorText(){
 
 }
 
-CentralMarketDistrict::CentralMarketDistrict() : District(20, 15, 15, 15) { total_goods = 100; }
+CentralMarketDistrict::CentralMarketDistrict() : Market(20, 15, 15, 15, 10, 10) {}

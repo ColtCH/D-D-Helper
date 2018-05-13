@@ -6,12 +6,12 @@ MapWindow::MapWindow(QWidget *parent) : QDialog(parent), ui(new Ui::MapWindow) {
 
     ui->setupUi(this);
 
-    //This makes the background the image specified below--
+    //This makes the background the image specified below-----------------------
     QPixmap background("/home/colt/Desktop/Not CPSC/DNDHelper/map_texture/map.pbm");
     QPalette background_palette;
     background_palette.setBrush(QPalette::Background, background);
     this->setPalette(background_palette);
-    //-----------------------------------------------------
+    //--------------------------------------------------------------------------
 
     //What the buttons will look like.
     QString style_sheet_info = "background-color: rgba(255, 255, 255, 0);";
@@ -57,7 +57,12 @@ void MapWindow::on_stoneDistrictButton_clicked() {
 
     //Setting up all the information needed for DistrictMap constructor call.
     QString qstr_flavor_text = QString::fromStdString(this->districts[0]->flavorText());
-    DistrictMap stone_district(0, qstr_flavor_text);
+    DistrictMap stone_district(0,                 //district number
+                               813,               //image width
+                               600,               //image height
+                               10,                 //label container for text's x
+                               10,                 //label container for text's y
+                               qstr_flavor_text); //text
 
     //Don't know why this is necessary. RIP.
     stone_district.setModal(true);

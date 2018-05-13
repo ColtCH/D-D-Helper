@@ -29,7 +29,7 @@ FORMS   += menu_window/mapwindow.ui
 FORMS   += menu_window/districtmap.ui
 
 
-#This code below puts the ".o" files and the executable into a separate file.
+#This code below puts the ".o" files and the executable into a separate folder.
 
 release: DESTDIR = build/release
 debug:   DESTDIR = build/debug

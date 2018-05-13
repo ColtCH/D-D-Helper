@@ -31,6 +31,10 @@ class DistrictMap : public QDialog
 public:
 
     explicit DistrictMap(int district_number,  //Needed to get correct map.
+                         int image_width,
+                         int image_height,
+                         int label_placement_x,
+                         int label_placement_y,
                          QString flavor_text,  //Text that will be dumped into label.
                          QWidget *parent = 0); //What it gets bounded to.
 

@@ -3,6 +3,10 @@
 
 //DISTRICT MAP CONSTRUCTOR======================================================
 DistrictMap::DistrictMap(int district_number,
+                         int image_width,
+                         int image_height,
+                         int label_placement_x,
+                         int label_placement_y,
                          QString flavor_text,
                          QWidget *parent) :
                          QDialog(parent) {
@@ -23,7 +27,8 @@ DistrictMap::DistrictMap(int district_number,
     //Use QPalette to paint the background onto the window.
     background_palette.setBrush(QPalette::Background, background);
     this->setPalette(background_palette);
-    this->setGeometry(QRect(10,10,813,600)); //need static dimensions.
+
+    this->setGeometry(QRect(10, 10, image_width, image_height));
 
     QFont label_font("Arial", 15, QFont::Bold);
 
@@ -31,6 +36,7 @@ DistrictMap::DistrictMap(int district_number,
     QLabel *flavor_text_container = new QLabel(this);
     flavor_text_container->setFont(label_font);
     flavor_text_container->setStyleSheet("QLabel { color: white; }");
+    flavor_text_container->setGeometry(QRect(label_placement_x, label_placement_y, 500, 157));
     flavor_text_container->setText(flavor_text);
 }
 
