@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MapWindow</class>
+ <widget class="QDialog" name="MapWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="stoneDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>76</x>
+     <y>383</y>
+     <width>420</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="northDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>505</x>
+     <y>242</y>
+     <width>229</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="lowerWestDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>622</y>
+     <width>481</width>
+     <height>290</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="borderDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>622</y>
+     <width>194</width>
+     <height>344</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="capitalDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>733</x>
+     <y>484</y>
+     <width>147</width>
+     <height>283</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="southMarketDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>733</x>
+     <y>766</y>
+     <width>147</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bernardDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>879</x>
+     <y>766</y>
+     <width>96</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="capitalMausoleumDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>974</x>
+     <y>766</y>
+     <width>68</width>
+     <height>115</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stAbrahamDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>879</x>
+     <y>622</y>
+     <width>163</width>
+     <height>145</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="churchOfAnneDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>879</x>
+     <y>484</y>
+     <width>163</width>
+     <height>115</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="flowerSquareDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>405</y>
+     <width>232</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="northMarketDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>234</y>
+     <width>327</width>
+     <height>157</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="seaDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>1057</x>
+     <y>405</y>
+     <width>108</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="hotelDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>1057</x>
+     <y>484</y>
+     <width>108</width>
+     <height>115</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="blueDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>1164</x>
+     <y>435</y>
+     <width>198</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="baxterTheatreDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>1164</x>
+     <y>484</y>
+     <width>198</width>
+     <height>115</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="eastADistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>1374</x>
+     <y>484</y>
+     <width>241</width>
+     <height>115</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="eastBDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>1374</x>
+     <y>622</y>
+     <width>241</width>
+     <height>145</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="centralMarketDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>1057</x>
+     <y>622</y>
+     <width>108</width>
+     <height>145</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="damenDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>1164</x>
+     <y>622</y>
+     <width>198</width>
+     <height>145</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="southFisheryDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>1057</x>
+     <y>766</y>
+     <width>150</width>
+     <height>115</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fisheryDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>1374</x>
+     <y>766</y>
+     <width>241</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="eastFisheryDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>1614</x>
+     <y>622</y>
+     <width>113</width>
+     <height>344</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="northFisheryDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>1374</x>
+     <y>212</y>
+     <width>241</width>
+     <height>273</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="steamMinesDistrictButton">
+   <property name="geometry">
+    <rect>
+     <x>1628</x>
+     <y>165</y>
+     <width>248</width>
+     <height>433</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

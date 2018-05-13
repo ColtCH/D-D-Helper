@@ -2,6 +2,7 @@
 #define _CAPITAL_MAUSOLEUM_DISTRICT_H_
 /*
 ================================================================================
+A bit grim, but a mausoleum has tombstones: it would be nice to know how many.
 ================================================================================
 */
 

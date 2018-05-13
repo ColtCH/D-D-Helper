@@ -2,6 +2,8 @@
 #define _CAPTIAL_DISTRICT_H_
 /*
 ================================================================================
+Capital District contains an integer which determines how it feels about the
+populus. This impacts several quests.
 ================================================================================
 */
 

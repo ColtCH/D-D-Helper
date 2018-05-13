@@ -2,6 +2,9 @@
 #define _MAP_H_
 /*
 ================================================================================
+Base Abstract class of districts. In order to be considered a district, a
+derived class must have the following functions defined. The primary reason for
+this inheritance is some occasional polymorphism.
 ================================================================================
 */
 

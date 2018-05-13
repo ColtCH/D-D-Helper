@@ -2,6 +2,7 @@
 #define _STONE_DISTRICT_H_
 /*
 ================================================================================
+Contains a mineral store.
 ================================================================================
 */
 
@@ -11,7 +12,7 @@ class StoneDistrict : public District {
 
 public:
 
-  int mineral_storage; // A Value between 1 - 1000
+  int mineral_storage; // A Value between 1 - 100
 
   string flavorText();
 
