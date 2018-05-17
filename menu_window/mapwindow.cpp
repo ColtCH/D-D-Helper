@@ -7,7 +7,7 @@ MapWindow::MapWindow(QWidget *parent) : QDialog(parent), ui(new Ui::MapWindow) {
     ui->setupUi(this);
 
     //This makes the background the image specified below-----------------------
-    QPixmap background("/home/colt/Desktop/Not CPSC/DNDHelper/map_texture/map.pbm");
+    QPixmap background("/home/colt/Desktop/Not CPSC/DNDHelper/map_texture/map_drawn.png");
     QPalette background_palette;
     background_palette.setBrush(QPalette::Background, background);
     this->setPalette(background_palette);
@@ -53,24 +53,6 @@ MapWindow::~MapWindow(){
     delete ui;
 }
 
-void MapWindow::on_stoneDistrictButton_clicked() {
-
-    //Setting up all the information needed for DistrictMap constructor call.
-    QString qstr_flavor_text = QString::fromStdString(this->districts[0]->flavorText());
-    DistrictMap stone_district(0,                 //district number
-                               813,               //image width
-                               600,               //image height
-                               10,                 //label container for text's x
-                               10,                 //label container for text's y
-                               qstr_flavor_text); //text
-
-    //Don't know why this is necessary. RIP.
-    stone_district.setModal(true);
-
-    //Execute the button.
-    stone_district.exec();
-}
-
 void MapWindow::initializeDistricts  (vector<District*>& districts) {
 
     //Creates the vector that stores all the district objects.
@@ -99,4 +81,64 @@ void MapWindow::initializeDistricts  (vector<District*>& districts) {
     districts.push_back( new NorthFisheryDistrict    () );
     districts.push_back( new EastFisheryDistrict     () );
     districts.push_back( new SteamMinesDistrict      () );
+}
+
+
+void MapWindow::on_stoneDistrictButton_clicked() {
+
+    //Setting up all the information needed for DistrictMap constructor call.
+    QString qstr_flavor_text = QString::fromStdString(this->districts[0]->flavorText());
+    DistrictMap stone_district(0,                 //district number
+                               813,               //image width
+                               600,               //image height
+                               10,                 //label container for text's x
+                               10,                 //label container for text's y
+                               qstr_flavor_text); //text
+
+    //Don't know why this is necessary. RIP.
+    stone_district.setModal(true);
+
+    //Execute the button.
+    stone_district.exec();
+}
+
+void MapWindow::on_lowerWestDistrictButton_clicked()
+{
+    //Setting up all the information needed for DistrictMap constructor call.
+    QString qstr_flavor_text = QString::fromStdString(this->districts[1]->flavorText());
+    DistrictMap lower_west_district(0,                 //district number
+                                    813,               //image width
+                                    600,               //image height
+                                    10,                 //label container for text's x
+                                    10,                 //label container for text's y
+                                    qstr_flavor_text); //text
+
+    //Don't know why this is necessary. RIP.
+    lower_west_district.setModal(true);
+
+    //Execute the button.
+    lower_west_district.exec();
+}
+
+void MapWindow::on_northDistrictButton_clicked()
+{
+    //Setting up all the information needed for DistrictMap constructor call.
+    QString qstr_flavor_text = QString::fromStdString(this->districts[3]->flavorText());
+    DistrictMap north_district(4,                 //district number
+                               500,               //image width
+                               892,               //image height
+                               10,                 //label container for text's x
+                               10,                 //label container for text's y
+                               qstr_flavor_text); //text
+
+    //Don't know why this is necessary. RIP.
+    north_district.setModal(true);
+
+    //Execute the button.
+    north_district.exec();
+}
+
+void MapWindow::on_keyItemButton_clicked()
+{
+
 }

@@ -32,6 +32,12 @@ public:
 private slots:
     void on_stoneDistrictButton_clicked();
 
+    void on_lowerWestDistrictButton_clicked();
+
+    void on_northDistrictButton_clicked();
+
+    void on_keyItemButton_clicked();
+
 private:
     Ui::MapWindow *ui;
     vector<District*> districts;
